@@ -41,7 +41,7 @@ export const FetchWines = () => {
     });
 
     const filteredWines = sortedWines.filter(wine =>
-        wine.name.includes(searchTerm)
+        wine.name.toLowerCase().includes(searchTerm.toLowerCase())
     );
 
     const totalRows = sortedWines.length;
