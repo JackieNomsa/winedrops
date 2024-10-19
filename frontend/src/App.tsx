@@ -1,7 +1,8 @@
 import "./App.css";
+import { FetchWines } from "./FetchWines"
 
 function App() {
-  return <div>Hello world!</div>;
+  return <FetchWines />;
 }
 
 export default App;

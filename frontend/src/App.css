@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+body{
+    width: 40%;
+    margin: auto;
+    color: gray;
+    font-family: "Pangolin", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button{
+    padding: 1em 3em;
+    color: gray;
+    border: 1px solid #ddd;
+    border-radius: 5%;
+}
+
+input{
+    border: 1px solid #ddd;
+    padding: 0.3em 1em;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 0.3em 1em;
+    text-align: left;
+}
